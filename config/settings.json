@@ -1,0 +1,17 @@
+{
+  "watch_folder": "/data/downloads",
+  "destination_base": "/data/organized",
+  "rules": [
+    { "extension": "jpg", "folder": "Images", "subfolder_by_date": true },
+    { "extension": "png", "folder": "Images", "subfolder_by_date": true },
+    { "extension": "pdf", "folder": "Documents", "subfolder_by_date": false },
+    { "extension": "docx", "folder": "Documents" },
+    { "extension": "mp4", "folder": "Videos" },
+    { "extension": "zip", "folder": "Archives", "unpack": false }
+  ],
+  "log_file": "/app/logs/file_organizer.log",
+  "encrypt_sensitive": false,
+  "sensitive_extensions": ["pdf", "docx"],
+  "run_once": false,
+  "interval_seconds": 60
+}

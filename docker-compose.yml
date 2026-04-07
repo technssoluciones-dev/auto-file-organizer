@@ -1,0 +1,9 @@
+version: '3'
+services:
+  organizer:
+    build: .
+    volumes:
+      - /home/user/Downloads:/home/user/Downloads:ro   # solo lectura origen
+      - /home/user/Organized:/home/user/Organized
+      - ./config:/app/config
+    restart: unless-stopped

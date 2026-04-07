@@ -1,0 +1,43 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Herramientas de testing y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs y bases de datos locales
+*.log
+*.db
+*.sqlite
+
+# Archivos de configuración que podrían contener rutas absolutas (evita subir tu configuración personal)
+config/settings_local.json
+*.local.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos generados por Docker
+*.pid
+docker-compose.override.yml
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/

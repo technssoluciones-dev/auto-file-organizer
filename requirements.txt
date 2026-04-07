@@ -1,0 +1,5 @@
+watchdog==3.0.0      # Monitoreo en tiempo real (opcional pero atractivo)
+pytest==7.4.0
+black==23.7.0
+ruff==0.0.285
+cryptography==41.0.3 # Opcional: cifrado de archivos sensibles

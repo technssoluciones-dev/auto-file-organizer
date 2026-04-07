@@ -1,0 +1,1 @@
+# Permite que pytest descubra los tests correctamente.
