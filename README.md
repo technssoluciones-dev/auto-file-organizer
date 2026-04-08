@@ -1,3 +1,5 @@
+[![CI Pipeline](https://github.com/technssoluciones-dev/auto-file-organizer/actions/workflows/ci.yml/badge.svg)](https://github.com/technssoluciones-dev/auto-file-organizer/actions/workflows/ci.yml)
+
 # 📁 Auto File Organizer
 
 Organizador automático de archivos con Python y Docker. Vigila tu carpeta de Descargas y mueve archivos según su extensión a subcarpetas organizadas.
