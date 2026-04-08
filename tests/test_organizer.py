@@ -20,3 +20,6 @@ def test_safe_move_collision(tmp_path):
     assert safe_move(src, dst, None) == True
     # Debe haber creado a_1.txt
     assert (tmp_path / "a_1.txt").exists()
+
+def test_true():
+    assert True
